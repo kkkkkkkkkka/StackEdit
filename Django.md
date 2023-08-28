@@ -26,9 +26,9 @@ urlpatterns = [
 ## shortcuts库的常用方法
 
 1. render() 函数的第一个参数是请求对象，第二个参数是模板名称，第三个参数是可选的字典。它会返回一个使用给定上下文渲染的给定模板的 HttpResponse 对象。
-2. get_object_or_404() 函数以 Django 模型为第一个参数，并将任意数量的关键字参数传递给模型管理器的 get() 函数。如果对象不存在，它将引发Http404
+2. get_object_or_404() 函数以 Django 模型为第一个参数，并将任意数量的关键字参数传递给模型管理器的 get() 函数。如果对象不存在，它将引发 Http404。
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIzNzA2NzEsLTIwMTI3NjE3OTZdfQ
+eyJoaXN0b3J5IjpbLTE0Nzk1OTYzOTcsLTIwMTI3NjE3OTZdfQ
 ==
 -->
