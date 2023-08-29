@@ -49,13 +49,18 @@ context 可以进行字典查找，属性查找，列表索引查找
 {{ my_list.0 }}
 ```
 2. 标签
-[内置标签](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#std-templatetag)
+[更多内置标签](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#std-templatetag)
 [Writing custom template tags](https://docs.djangoproject.com/en/4.2/howto/custom-template-tags/#howto-writing-custom-template-tags)
-
+Tags are surrounded by `{%` and `%}` like this:
+`{% csrf_token %}`
+支持传参
+`{% cycle 'odd' 'even' %}`
 3. 过滤器
+
 4. 注释
+{# this won't be rendered #}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQxODMzMzMsLTIwNjQ0NzM5MzIsMT
-cwNDQ1MzQzNywtMzQ4MjY5MTQxLC0xOTQwNTc2OTk5LDc4ODA2
-NTIxMywtMjAxMjc2MTc5Nl19
+eyJoaXN0b3J5IjpbMTI4ODAxNjE1OCwtMjA2NDQ3MzkzMiwxNz
+A0NDUzNDM3LC0zNDgyNjkxNDEsLTE5NDA1NzY5OTksNzg4MDY1
+MjEzLC0yMDEyNzYxNzk2XX0=
 -->
