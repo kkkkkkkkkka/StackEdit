@@ -36,7 +36,12 @@ urlpatterns = [
 DTL语法主要包含四种结构
 
 1. 变量
+
+2. 标签
+3. 过滤器
+4. 注释
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDQ1MzQzNywtMzQ4MjY5MTQxLC0xOT
-QwNTc2OTk5LDc4ODA2NTIxMywtMjAxMjc2MTc5Nl19
+eyJoaXN0b3J5IjpbNzAxNjA3NjcwLDE3MDQ0NTM0MzcsLTM0OD
+I2OTE0MSwtMTk0MDU3Njk5OSw3ODgwNjUyMTMsLTIwMTI3NjE3
+OTZdfQ==
 -->
