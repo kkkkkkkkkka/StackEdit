@@ -43,7 +43,7 @@ With a context of **{'first_name': 'John', 'last_name': 'Doe'}**, this template 
 `My first name is John. My last name is Doe.`
 context 可以进行字典查找，属性查找，列表索引查找
 如果变量解析为可调用变量，模板系统将不带参数地调用它，并使用其结果而不是可调用变量。
-```
+```python
 {{ my_dict.key }}
 {{ my_object.attribute }}
 {{ my_list.0 }}
@@ -58,9 +58,16 @@ Tags are surrounded by `{%` and `%}` like this:
 3. 过滤器
 
 4. 注释
-{# this won't be rendered #}
+单行注释
+`{# this won't be rendered #}`
+多行注释
+```python
+{% comment %}  
+<li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>  
+{% endcomment %}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODAxNjE1OCwtMjA2NDQ3MzkzMiwxNz
-A0NDUzNDM3LC0zNDgyNjkxNDEsLTE5NDA1NzY5OTksNzg4MDY1
-MjEzLC0yMDEyNzYxNzk2XX0=
+eyJoaXN0b3J5IjpbOTQyNjQ4NjI1LC0yMDY0NDczOTMyLDE3MD
+Q0NTM0MzcsLTM0ODI2OTE0MSwtMTk0MDU3Njk5OSw3ODgwNjUy
+MTMsLTIwMTI3NjE3OTZdfQ==
 -->
