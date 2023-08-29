@@ -41,14 +41,16 @@ DTL语法主要包含四种结构
 With a context of **{'first_name': 'John', 'last_name': 'Doe'}**, this template renders to:
 `My first name is John. My last name is Doe.`
 context 可以进行字典查找，属性查找，列表索引查找
-`{{ my_dict.key }}
+```
+{{ my_dict.key }}
 {{ my_object.attribute }}
-{{ my_list.0 }}`
+{{ my_list.0 }}
+```
 2. 标签
 3. 过滤器
 4. 注释
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM4NTE0NjAsMTcwNDQ1MzQzNywtMz
+eyJoaXN0b3J5IjpbLTEyMzI0OTU3NDgsMTcwNDQ1MzQzNywtMz
 Q4MjY5MTQxLC0xOTQwNTc2OTk5LDc4ODA2NTIxMywtMjAxMjc2
 MTc5Nl19
 -->
