@@ -29,10 +29,11 @@ urlpatterns = [
 `return render(request, "polls/detail.html", {"question": question})`
  2. get_object_or_404() 函数以 Django 模型为第一个参数，并将任意数量的关键字参数传递给模型管理器的 get() 函数。如果对象不存在，它将引发 Http404。
 `question = get_object_or_404(Question, pk=question_id)`
- 3. get_list_or_404()
+ 3. get_list_or_404()，其工作原理与 get_object_or_404()相同，只是使用了 filter() 而不是 get()。如果列表为空，它将引发 Http404。
 `my_objects = get_list_or_404(MyModel, published=True)`
  4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4MDY1MjEzLC0yMDEyNzYxNzk2XX0=
+eyJoaXN0b3J5IjpbLTE5NDA1NzY5OTksNzg4MDY1MjEzLC0yMD
+EyNzYxNzk2XX0=
 -->
