@@ -21,8 +21,6 @@ urlpatterns = [
 ]
 ```
 
----
-
 ## shortcuts库的常用方法
 
  1. render() 函数的第一个参数是请求对象，第二个参数是模板名称，第三个参数是可选的字典。它会返回一个使用给定上下文渲染的给定模板的 HttpResponse 对象。
@@ -33,13 +31,12 @@ urlpatterns = [
 `my_objects = get_list_or_404(MyModel, published=True)`
  4. 
 
----
 
 ## Django template language (DTL)
 DTL语法主要包含四种结构
 
-1. 
+1. 变量
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc4MDk4MCwtMzQ4MjY5MTQxLC0xOT
+eyJoaXN0b3J5IjpbMTcwNDQ1MzQzNywtMzQ4MjY5MTQxLC0xOT
 QwNTc2OTk5LDc4ODA2NTIxMywtMjAxMjc2MTc5Nl19
 -->
