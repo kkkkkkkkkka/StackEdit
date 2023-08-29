@@ -32,7 +32,14 @@ urlpatterns = [
  3. get_list_or_404()，其工作原理与 get_object_or_404()相同，只是使用了 filter() 而不是 get()。如果列表为空，它将引发 Http404。
 `my_objects = get_list_or_404(MyModel, published=True)`
  4. 
+
+---
+
+## Django template language (DTL)
+DTL语法主要包含四种结构
+
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODI2OTE0MSwtMTk0MDU3Njk5OSw3OD
-gwNjUyMTMsLTIwMTI3NjE3OTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMTc4MDk4MCwtMzQ4MjY5MTQxLC0xOT
+QwNTc2OTk5LDc4ODA2NTIxMywtMjAxMjc2MTc5Nl19
 -->
