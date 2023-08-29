@@ -32,8 +32,7 @@ urlpatterns = [
  3. get_list_or_404()，其工作原理与 get_object_or_404()相同，只是使用了 filter() 而不是 get()。如果列表为空，它将引发 Http404。
 `my_objects = get_list_or_404(MyModel, published=True)`
  4. 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA1NzY5OTksNzg4MDY1MjEzLC0yMD
-EyNzYxNzk2XX0=
+eyJoaXN0b3J5IjpbLTM0ODI2OTE0MSwtMTk0MDU3Njk5OSw3OD
+gwNjUyMTMsLTIwMTI3NjE3OTZdfQ==
 -->
